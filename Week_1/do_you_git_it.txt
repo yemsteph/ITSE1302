@@ -1,3 +1,9 @@
 do_you_git_it.txt
 Commit 1
 I' Olujide Oyewole, i love watching soccer and my goal is to become IT expert in the future. I love reading and making friends.
+commit 2
+Version control systems keep track of every version of the software, this become straightforward task.It lets one contributor work on a copy of the resources and then release their changes back to the common core when ready.
+Commit 3
+Psuedocode
+ do_you_git_it
+ Introduce yourslfe
