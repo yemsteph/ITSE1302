@@ -1,0 +1,39 @@
+ //commit 3 println calculate average
+
+
+ List <String> name=[   
+      'sam':'arrow':[33,66,99,88,77],
+      'joe': 'rod':[13,84,58,90,20],
+      'chris':'kate':[33,71,10,66,53],
+      'steve':'scoler':[41,76,88,94,99],
+      'angela':'mike':[59,16,83,74,55],
+ ]
+Map<String,String> nameMap=[
+    'sam':'arrow',
+    'joe': 'rod',
+    'chris':'kate',
+    'steve':'scoler,
+    'angela':'mike'
+]    
+
+namelist.each{ name->
+    println name
+
+}
+String getgrade(BigDecimal grade){
+    if (grade >=90){
+        return 'A'
+    } else if(grade =<89.99 && 80){
+        return 'B'
+    } else if (grade <=79.99 && 70){
+         return 'C'
+    } else if (grade <=69.99 && 60){
+         return 'D'
+    } else if (grade <59.99)
+            return 'F'
+    }
+}
+
+ students.each{k,v ->
+      BigDecimal average = v.sum() / v.size()
+          println "$k -${v.sum() / v.size()}"
